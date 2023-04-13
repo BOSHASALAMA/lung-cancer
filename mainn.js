@@ -130,7 +130,7 @@ btn_dark.onclick=function a7aa(e){
     serv_captionp.style.color="white"
 our_team.style.backgroundColor="black"
 team_title.nextElementSibling.style.color="white"
-
+document.getElementById("TableBody").style.color="white"
     diagnosis.style.backgroundColor="black"
     history.style.backgroundColor="black"
     nav.style.backgroundColor="black"
@@ -208,6 +208,7 @@ window.onscroll=function(){
         serv_captionp.style.color="black"
         our_team.style.backgroundColor="white"
         team_title.nextElementSibling.style.color="black"
+        document.getElementById("TableBody").style.color="black"
         diagnosis.style.backgroundColor="var(--sec-color)"
         history.style.backgroundColor="white"
         nav.style.backgroundColor="var(--sec-color)"
@@ -343,5 +344,10 @@ t.onmouseleave=function(){
 
 
 
+var typed = new Typed('#element', {
+    strings: ["lung cancer",'Lung Cancer Prediction'],
+    typeSpeed: 50,
+  
+    loop:true,
 
-
+  });

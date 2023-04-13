@@ -54,36 +54,8 @@ border: 1px solid white;
     min-height: 1000px
 
 }
-.landing :nth-child(3) p{
-    position: relative;
-    -webkit-text-stroke: .3vw transparent;
-color: transparent;
-}
-.landing :nth-child(3) p::before{
-    content: attr(data-text);
-    position: absolute;
-    top: 0;
-    left: 30%;
-    width: 0;
-    height: 100%;
-    color: white;
-    -webkit-text-stroke: 0vw transparent;
-border-right:2px solid white ;
-overflow: hidden;
-animation: animate 7s linear infinite;
 
-}
-@keyframes animate {
 
-    0% ,10%, 50% {
-        width: 0%;
-    }
-    40%,90% ,100%{
-        width: 50%;
-    }
-  
-    
-}
 
 .features-title::after{
     content: '';
